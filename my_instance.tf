@@ -1,4 +1,4 @@
-#give your own access and secret key
+#give your own access and secret key of your aws account
 provider "aws"{
     access_key=""
     secret_key=""
