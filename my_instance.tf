@@ -17,6 +17,7 @@ variable "name" {
 	}
 
 resource "aws_key_pair" "lab_keypair" {
+  #enter key_pair
 	  key_name   = format("%s%s", var.name, "_keypair")
 	  public_key = file(var.public_key_path)
 	}
