@@ -1,3 +1,4 @@
+#give your own access and secret key
 provider "aws"{
     access_key=""
     secret_key=""
