@@ -23,6 +23,7 @@ resource "aws_key_pair" "lab_keypair" {
 	}
 
 variable "subnets_cidr" {
+	#subnet ips
 	  default = ["10.0.0.0/24", "10.0.1.0/24"]
 	}
 
